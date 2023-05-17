@@ -15,5 +15,7 @@ namespace Employee_project.Data
         }
 
         public DbSet<Employee_project.Models.Employee> Employee { get; set; } = default!;
+
+        public DbSet<Employee_project.Models.Product>? Product { get; set; }
     }
 }
